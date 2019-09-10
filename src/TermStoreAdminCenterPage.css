@@ -1,0 +1,48 @@
+.termStorePage {
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.dashboard {
+  display: flex;
+  height: 100%;
+}
+
+.headerContainer {
+  border-bottom: 1px solid gray;
+  margin-right: 50px;
+  margin-left: 10px;
+}
+
+.treeContainer {
+  width: 250px;
+  border-right: 1px solid gray;
+  margin-left: 7px;
+  overflow-y: auto;
+}
+
+.treeNode {
+  display: flex;
+  align-items: center;
+  padding: 3px;
+}
+
+.treeNode:hover {
+  background: gray;
+}
+
+.treeNodeIcon {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.rightPane {
+  flex-grow: 1;
+}
+
+.loaderContainer {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}

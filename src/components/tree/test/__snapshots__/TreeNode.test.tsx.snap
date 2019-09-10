@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Term Store Admin Center Page Tree Node should render same as previous 1`] = `
+<div
+  className="treeNode"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "display": "flex",
+      "paddingLeft": 0,
+    }
+  }
+>
+  <span
+    data-automation-id="treeNodeToggleChevron"
+    onClick={[Function]}
+    role="button"
+  >
+    <i
+      aria-hidden={true}
+      className="treeNodeIcon root-47"
+      data-icon-name="ChevronRightMed"
+      role="presentation"
+    >
+      
+    </i>
+  </span>
+  <i
+    aria-hidden={true}
+    className="root-49"
+    data-icon-name="FabricFolderFill"
+    role="presentation"
+    style={
+      Object {
+        "marginRight": 5,
+      }
+    }
+  >
+    
+  </i>
+  <span
+    data-automation-id="treeNodeDisplayName"
+    onClick={[Function]}
+    role="button"
+    style={
+      Object {
+        "whiteSpace": "nowrap",
+        "width": "100%",
+      }
+    }
+  >
+    Taxonomy term store
+  </span>
+  <button
+    className="ms-Button ms-Button--icon root-50"
+    data-is-focusable={true}
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    onKeyPress={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseUp={[Function]}
+    style={
+      Object {
+        "visibility": "hidden",
+      }
+    }
+    type="button"
+  >
+    <div
+      className="ms-Button-flexContainer flexContainer-51"
+    >
+      <i
+        aria-hidden={true}
+        className="ms-Button-icon icon-59"
+        data-icon-name="MoreVertical"
+        role="presentation"
+      >
+        
+      </i>
+    </div>
+  </button>
+</div>
+`;
